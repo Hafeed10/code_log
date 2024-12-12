@@ -10,7 +10,7 @@ function Knowledge() {
             <h1 className="text-center text-4xl font-bold mb-6 text-[#160E53]">Acknowledgements</h1>
             <hr className="border-t-2 border-gray-400 w-1/2 mx-auto mb-6" />
         </div>
-        <div className='flex'>
+        <div className='flex md:flex-row flex-col'>
             <img src={image12} alt="Image related to acknowledgements" className="max-w-full h-auto" />
             <img src={image13} alt="Image related to acknowledgements" className="max-w-1/2 h-auto" />
         </div>
