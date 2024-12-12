@@ -14,7 +14,7 @@ function Home_First() {
     return (
         <div className='bg-gradient-to-b from-gray-200 to-gray-300 min-h-screen'>
             {/* Navbar */}
-            <div className='relative flex items-center justify-between p-4 md:px-40 py-10'>
+            <div className='relative flex items-center justify-between p-4 md:px-40 px-10 py-10'>
                 {/* Logo or Title */}
                 <h1 className='text-3xl font-bold'>CODELOGIC</h1>
 
@@ -29,12 +29,12 @@ function Home_First() {
                 {/* Navbar (conditionally rendered) */}
                 {isNavbarVisible && (
                     <div
-                        className='absolute top-16 left-0 w-full z-10 py-4'
+                        className='absolute top-20 left-0  w-full z-10 py-5 bg-gray-300 '
                     >
-                        <ul className='flex flex-col gap-4 justify-center items-center md:flex-row md:gap-15'>
+                        <ul className='flex flex-col gap-4 justify-center  items-center md:p-0 p-5  md:flex-row  md:gap-15'>
                             <li className='p-2 cursor-pointer hover:text-blue-500'>Home</li>
                             <li className='p-2 cursor-pointer hover:text-blue-500'>About</li>
-                            <li className='p-2 cursor-pointer hover:text-blue-500'>coding channels on youtube</li>
+                            <li className='p-2 cursor-pointer hover:text-blue-500'>coding  youtube</li>
                             <li className='p-2 cursor-pointer hover:text-blue-500'>Contact</li>
                         </ul>
                     </div>
@@ -45,7 +45,7 @@ function Home_First() {
             <div className='flex flex-col md:flex-row items-center justify-between p-4 md:px-40 space-y-10 md:space-y-0 md:space-x-20'>
                 {/* Text Section */}
                 <div>
-                    <h1 className='text-4xl md:text-6xl font-bold leading-tight text-gray-800'>
+                    <h1 className='text-5xl md:text-6xl  font-bold leading-tight text-gray-800'>
                         Light Up <br />
                         Your Coding <br /> Journey
                     </h1>
