@@ -16,7 +16,7 @@ const AboutSection = () => {
             {/* About Us Section */}
             <div className="text-center md:text-left max-w-3xl">
                 <h1 className="text-4xl font-bold mb-4 px-4 text-[#160E53]">About Us</h1>
-                <p className="text-lg text-gray-700 leading-relaxed px-4 md:text-start text-center">
+                <p className="text-lg text-gray-700 leading-relaxed px-4 md:text-start text-start">
                     Codight is a web development platform designed to streamline the coding process for beginners and professionals alike.
                     With a live HTML editor and a variety of resources, Codight makes it easier to create and test code in real time. Whether
                     you're just starting out or looking to enhance your skills, Codight offers tutorials, coding examples, and a user-friendly
